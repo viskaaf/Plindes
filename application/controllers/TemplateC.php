@@ -15,11 +15,17 @@ var $data= array();
 	public function index()
 	{
 		
-		 $data['body']= $this->load->view('dashboardV', $this->data, true);
+		$data['body']= $this->load->view('dashboardV', $this->data, true);
 		$this->load->view('templateV', $data);
 	}
 
 	public function desa()
+		{
+			$data['body']= $this->load->view('desaV', $this->data, true);
+			$this->load->view('templateV', $data);
+		}
+
+	public function formdesa()
 	{
 		
 		 $data['body']= $this->load->view('form_desaV', $this->data, true);

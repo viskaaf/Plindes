@@ -4,7 +4,7 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">                
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="<?php echo site_url('TemplateC/index') ?>">
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
@@ -22,14 +22,14 @@
                   </li>       
                   
                   <li>
-                      <a class="" href="widgets.html">
+                      <a class="" href="<?php echo site_url('TemplateC/desa') ?>">
                           <i class="icon_genius"></i>
                           <span>Desa</span>
                       </a>
                   </li>
                                                        
                   <li class="sub-menu">
-                      <a href="javascript:;" class="">
+                      <a href="<?php echo site_url('TemplateC/keluhan') ?>" class="">
                           <i class="icon_documents_alt"></i>
                           <span>Keluhan</span>
                          
@@ -46,16 +46,16 @@
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper">
-		  <div class="row">
-				<div class="col-lg-12">
-					<h3 class="page-header"><i class="fa fa-files-o"></i> Form Tambah Keluhan</h3>
-					<ol class="breadcrumb">
-						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-						<li><i class="icon_document_alt"></i>Keluhan</li>
-						<!-- <li><i class="fa fa-files-o"></i>Form Tambah Keluhan</li> -->
-					</ol>
-				</div>
-			</div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="page-header"><i class="fa fa-files-o"></i> Form Tambah Keluhan</h3>
+          <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+            <li><i class="icon_document_alt"></i>Keluhan</li>
+            <!-- <li><i class="fa fa-files-o"></i>Form Tambah Keluhan</li> -->
+          </ol>
+        </div>
+      </div>
               <!-- Form validations -->              
               <div class="row">
                   <div class="col-lg-12">
